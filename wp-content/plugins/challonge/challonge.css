@@ -1,0 +1,313 @@
+.challonge-ok,
+.challonge-error {
+	margin: 5px 0 15px;
+	border: 1px solid #777;
+	padding: 0 .6em;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	outline: 0;
+	font-family: sans-serif;
+	font-size: 12px;
+	line-height: 1.4em;
+}
+.challonge-ok {
+	background-color: #ebffe8;
+	border-color: #0c0;
+	color: #333;
+}
+.challonge-error {
+	background-color: #ffebe8;
+	border-color: #c00;
+	color: #333;
+}
+.challonge-embed {
+	height: 400px;
+}
+.challonge-embed-tb {
+	height: 100%;
+}
+.challonge-denied {
+	background: rgb(112,112,112);
+	background:    -moz-radial-gradient(center, ellipse cover, rgba(112,112,112,1) 0%, rgba(68,68,68,1) 100%);
+	background:        -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(112,112,112,1)), color-stop(100%,rgba(68,68,68,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(112,112,112,1) 0%, rgba(68,68,68,1) 100%);
+	background:      -o-radial-gradient(center, ellipse cover, rgba(112,112,112,1) 0%, rgba(68,68,68,1) 100%);
+	background:     -ms-radial-gradient(center, ellipse cover, rgba(112,112,112,1) 0%, rgba(68,68,68,1) 100%);
+	background:         radial-gradient(ellipse at center, rgba(112,112,112,1) 0%, rgba(68,68,68,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#707070', endColorstr='#444444',GradientType=1 );
+}
+.challonge-denied-message {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	width: 10px;
+	height: 10px;
+	overflow: visible;
+}
+.challonge-denied-message-inner {
+	position: relative;
+	top: -45px;
+	left: -160px;
+	color: white;
+	width: 300px;
+	text-align: left;
+	border: 5px solid red;
+	border-radius: 15px;
+	padding: 10px 5px;
+}
+.challonge-denied-message-title {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.challonge-denied-message-description {
+	font-size: 80%;
+}
+.challonge-table > tfoot > tr > td {
+	padding: 0;
+}
+.challonge-table .challonge-type,
+.challonge-table .challonge-participants,
+.challonge-table .challonge-progress,
+.challonge-table .challonge-quick,
+.challonge-table .challonge-state,
+.challonge-table .challonge-signup,
+.challonge-table .challonge-rank,
+.challonge-table .challonge-points {
+	text-align: center;
+}
+.challonge-table .challonge-created,
+.challonge-table .challonge-started,
+.challonge-table .challonge-start {
+	text-align: right;
+}
+.challonge-table td.challonge-progress progress {
+	width: 64px;
+	background-clip: content-box; /* fixes Chrome v32+ */
+}
+td.challonge-quick .dashicons {
+	font-size: 30px;
+}
+
+.challonge-widget-tournaments li {
+	margin-bottom: 12px;
+	line-height: 100%;
+}
+.challonge-widget-tournaments li .challonge-info {
+	font-size: 80%;
+}
+
+.challonge-button {
+	background:     -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #4197ee) );
+	background: -moz-linear-gradient( center top, #79bbff 5%, #4197ee 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#4197ee');
+	background-color: #79bbff;
+	-webkit-border-radius: 4px;
+	   -moz-border-radius: 4px;
+	        border-radius: 4px;
+	border: 1px solid #469df5;
+	display: inline-block;
+	color: #fff !important;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	height: 18px;
+	line-height: 18px;
+	width: 56px;
+	text-decoration: none;
+	text-align: center;
+	text-shadow: 0px 1px 1px #287ace;
+}
+.challonge-widget-tournaments .challonge-button {
+	float: right;
+}
+.challonge-button:hover {
+	background:     -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4197ee), color-stop(1, #79bbff) );
+	background: -moz-linear-gradient( center top, #4197ee 5%, #79bbff 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4197ee', endColorstr='#79bbff');
+	background-color: #4197ee;
+	text-decoration: none !important;
+}
+.challonge-button:active {
+	position:relative;
+	top:1px;
+}
+
+.challonge-bigbutton {
+	height: 28px;
+	line-height: 28px;
+	width: 86px;
+	float: none;
+}
+
+.challonge-button-win,
+.challonge-button-join {
+	background:     -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9dce2c), color-stop(1, #8cb82b) );
+	background: -moz-linear-gradient( center top, #9dce2c 5%, #8cb82b 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9dce2c', endColorstr='#8cb82b');
+	background-color: #9dce2c;
+	border-color: #83c41a;
+	text-shadow: 0px 1px 1px #689324;
+}
+.challonge-button-win:hover,
+.challonge-button-join:hover {
+	background:     -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8cb82b), color-stop(1, #9dce2c) );
+	background: -moz-linear-gradient( center top, #8cb82b 5%, #9dce2c 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cb82b', endColorstr='#9dce2c');
+	background-color: #8cb82b;
+}
+
+.challonge-button-lose,
+.challonge-button-leave {
+	background:     -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f) );
+	background: -moz-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f');
+	background-color: #f24537;
+	border-color: #d02718;
+	text-shadow: 0px 1px 1px #810e05;
+}
+.challonge-button-lose:hover,
+.challonge-button-leave:hover {
+	background:     -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537) );
+	background: -moz-linear-gradient( center top, #c62d1f 5%, #f24537 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537');
+	background-color: #c62d1f;
+}
+
+.challonge-button-tie {
+	background:     -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f6b33d), color-stop(1, #d29105) );
+	background: -moz-linear-gradient( center top, #f6b33d 5%, #d29105 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6b33d', endColorstr='#d29105');
+	background-color: #f6b33d;
+	border-color: #eda933;
+	text-shadow: 1px 1px 0px #cd8a15;
+}
+.challonge-button-tie:hover {
+	background:     -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d29105), color-stop(1, #f6b33d) );
+	background: -moz-linear-gradient( center top, #d29105 5%, #f6b33d 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d29105', endColorstr='#f6b33d');
+	background-color: #d29105;
+}
+
+.challonge-container-tb {
+	text-align: center;
+}
+
+.challonge-tournyname {
+	font-size: 220%;
+	font-weight: bold;
+	color: #333;
+}
+.challonge-tournyinfo {
+	font-weight: bold;
+	color: #444;
+}
+.challonge-tournydesc {
+	background: #ddd;
+	max-height: 300px;
+	overflow: auto;
+	text-align: left;
+	padding: 0 7px;
+}
+.challonge-tournydesc p {
+	margin: 0;
+}
+.challonge-playername {
+	font-size: 200%;
+	font-weight: bold;
+	color: #f60;
+}
+.challonge-lnkconfirm {
+	text-align: center;
+	width: 80%;
+	margin: 1em auto 0;
+	border-top: 1px solid #aaa;
+}
+.challonge-metahtml {
+	display: none;
+}
+
+#challonge-report {
+	text-align: center;
+}
+#challonge-report-score,
+#challonge-report-opponent-score {
+	width: 120px;
+	text-align: center;
+}
+#challonge-report .challonge-button {
+	cursor: pointer;
+}
+#challonge-report-table {
+	margin: auto;
+	width: 500px;
+}
+#challonge-report-table .challonge-wlt th,
+#challonge-report-table .challonge-wlt td {
+	text-align: center;
+	width: 33%;
+	padding: 1em 0;
+}
+#challonge-report-table .challonge-score th,
+#challonge-report-table .challonge-score td {
+	text-align: center;
+	width: 50%;
+	padding: 1em 0;
+}
+#challonge-loginform p {
+	margin-bottom: 1em;
+}
+#challonge-loginform #user_login,
+#challonge-loginform #user_pass {
+	width: 80%;
+}
+
+.challonge-freshness {
+	opacity: 0.7;
+	font-size: 65%;
+	text-align: right;
+	vertical-align: middle;
+	line-height: 1;
+	display: block;
+}
+.challonge-freshness:before {
+	font-size: 150%;
+	vertical-align: middle;
+	line-height: 1.25;
+}
+.challonge-freshness.challonge-refresh {
+	cursor: pointer;
+	position: relative;
+}
+.challonge-freshness.challonge-refresh .challonge-freshness-hover {
+	display: none;
+}
+.challonge-freshness.challonge-refresh:hover {
+	color: transparent;
+}
+.challonge-freshness.challonge-refresh:hover:before {
+	color: initial;
+	opacity: 1;
+}
+.challonge-freshness.challonge-refresh:hover .challonge-freshness-hover {
+	display: inline;
+	color: initial;
+	opacity: 1;
+	position: absolute;
+	line-height: 2;
+	right: 0;
+	font-weight: bold;
+}
+.challonge-table > tfoot.challonge-hide-freshness,
+.challonge-freshness.challonge-hide-freshness,
+.challonge-freshness.challonge-refresh.challonge-hide-freshness {
+	display: none;
+}
+
+/* A fix to prevent theme elements from showing over thickbox. */
+#TB_overlay,
+#TB_window {
+	z-index: 200100510; /* Original TB z-index value + 200100000 */
+}
+#TB_load {
+	z-index: 200100103; /* Original TB z-index value + 200100000 */
+}
